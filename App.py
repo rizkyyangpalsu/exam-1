@@ -1,5 +1,6 @@
 import datetime as DateTime
 from CustomDate import *
+from Pasaran import *
 
 
 name = input("Masukkan nama anda: ")
@@ -21,5 +22,6 @@ print("Alamat: ", address)
 print("Tanggal lahir: ", get_day_name_id(dateParsed.strftime("%a")) + ",",
       dateParsed.strftime("%d"), get_month_name_id(dateParsed.strftime("%b")),
       dateParsed.strftime("%Y"))
+print("Weton anda: ", get_pasaran(dateParsed))
 print("Umur anda sekarang: ", get_age(dateParsed))
 print("5 tahun lagi umur anda: ", get_age(dateParsed) + 5)
