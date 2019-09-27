@@ -15,7 +15,7 @@ yearBirth = int(input("Masukkan tahun lahir: "))
 
 dateParsed = DateTime.date(yearBirth, monthBirth, dateBirth)
 
-print("========== BIODATA ==========\n")
+print("\n========== BIODATA ==========")
 print("Nama: ", name)
 print("Alamat: ", address)
 print("Tanggal lahir: ", get_day_name_id(dateParsed.strftime("%a")) + ",",
