@@ -22,3 +22,4 @@ print("Tanggal lahir: ", get_day_name_id(dateParsed.strftime("%a")) + ",",
       dateParsed.strftime("%d"), get_month_name_id(dateParsed.strftime("%b")),
       dateParsed.strftime("%Y"))
 print("Umur anda sekarang: ", get_age(dateParsed))
+print("5 tahun lagi umur anda: ", get_age(dateParsed) + 5)
